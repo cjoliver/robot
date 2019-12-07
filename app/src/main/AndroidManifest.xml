@@ -13,13 +13,23 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".welcome_code"
+            android:label="@string/title_activity_welcome_code"
+            android:parentActivityName=".InstructionMenu"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bjc.InstructionMenu" />
+        </activity>
+        <activity android:name=".Instruction" />
+        <activity
             android:name=".Controller"
             android:label="@string/title_activity_controller"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".InstructionMenu"
             android:label="@string/title_activity_instruction"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -21,7 +22,9 @@
             android:layout_height="?attr/actionBarSize"
             android:background="#00FBFBFB"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:titleTextColor="#00F82121" />
+            app:titleTextColor="#00F82121"
+            app:title="Instruction Menu"/>
+
 
     </com.google.android.material.appbar.AppBarLayout>
 
